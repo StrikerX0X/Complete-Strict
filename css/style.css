@@ -414,7 +414,9 @@ form span{
     color: #fff;
     padding: 9px;
 }
-form input[type="checkbox"] {}
+form input[type="checkbox"] {
+    cursor: pointer;
+}
 
 form input[type="submit"] {
     background: transparent;
@@ -423,6 +425,7 @@ form input[type="submit"] {
     border: 1px solid #15a4fa;
     border-radius: 2px;
     padding: 7px 27px;
+    cursor: pointer;
 }
 .flx{
     display: flex;
